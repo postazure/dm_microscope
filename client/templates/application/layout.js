@@ -1,4 +1,4 @@
-Template.layout.helper({
+Template.layout.helpers({
   pageTitle: function () {
     return Session.get('pageTitle');
   }
